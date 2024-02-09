@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: kubepi
+  annotations:
+    backstage.io/kubernetes-id: kubepi
 spec:
   lifecycle: production
   owner: guests
