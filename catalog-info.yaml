@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubepi
+spec:
+  lifecycle: production
+  owner: guests
+  type: service
